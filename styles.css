@@ -20,11 +20,9 @@ body {
   align-items: center;
 }
 
-.pianoKeys {
+.piano-keys {
   display: flex;
 }
-
-
 
 .keyboard-image-div{
   display: flex;
@@ -47,7 +45,6 @@ body {
 }
 
 .black {
-
   width: 60px;
   height: 240px;
   background-color: black;
@@ -59,4 +56,8 @@ body {
 
 .btn {
   background-color: blueviolet;
+}
+
+.pressed-key{
+  background-color: lightblue;
 }

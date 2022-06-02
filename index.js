@@ -34,32 +34,24 @@ function playNote(e) {
     return playAudio('c-5')
   }
 }
-  
-document.addEventListener("keydown", playNote)
-
-// const btn = document.getElementById('test-button')
-
-// function changeColor(event) {
-
-//   
-
-//   btn.addEventListener('click', function onClick(event) {
-//       event.target.style.backgroundColor = 'blue'
-//   }
-// )}
-
-//  const white = document.getElementsByClassName('white')
-
-// const white = document.getElementById('d')
-
-const white = document.getElementsById('d')
 
 
-function changeColor(event) {
-  console.log("HEhaerear")
-  event.target.style.backgroundColor = 'red'
+
+function addColor(e) {
+  let key = e.keyCode.toString()
+  document.getElementById(`${key}`).style.backgroundColor = '#FFF0D9'
 }
 
-document.addEventListener('keydown', changeColor)
+function removeColor(e){
+  let key = e.keyCode.toString()
+  document.getElementById(`${key}`).style.backgroundColor = 'white'
+}
+  
+document.addEventListener("keydown", playNote)
+document.addEventListener("keydown", addColor)
+document.addEventListener("keyup", removeColor)
+
+
+
 
  
