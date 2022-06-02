@@ -2,7 +2,15 @@
 
 // CODE FROM JSC - DRESS-THE-CLOWN
 // onkeydown for (a = 65, s=83, d=68, f=70, j=74, k=75, l=76, ;=186)
+
+const logKey = (e) => {
+  console.log(e)
+}
+
+document.addEventListener('keyup', logKey(e))
+
 function checkKey(e) {
+
 
   console.log(e)
 
@@ -40,7 +48,8 @@ function checkKey(e) {
   sound.play();
 } */}
 
-function playNote() {
+function playNote(e) {
+  console.log(e)
   let audio = new Audio('sounds/c-major.wav')
   audio.play()
   }
