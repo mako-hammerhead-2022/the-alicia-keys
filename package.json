@@ -1,0 +1,56 @@
+{
+  "name": "the-alicia-keys",
+  "version": "2.0.0",
+  "description": "first group project",
+  "main": "index.js",
+  "author": "EDA-Angela-Charlotte-LA-Rupert", // TO CONFIRM
+  "license": "ISC", // TO CONFIRM
+
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index --ignorre data.json",
+    "lint": "eslint .",
+    "test": "jest --watchAll"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mako-hammerhead-2022/the-alicia-keys"
+  },
+
+  "bugs": {
+    // TO ADD
+  },
+
+  "eslintConfig": {
+    // "extends": "eda" TO CONFIRM
+  },
+
+  "jest": {
+    "watchPathIgnorePatterns": [
+      "data.json"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-eda": "^1.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "prettier": "2.6.1",
+    "supertest": "^6.2.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
