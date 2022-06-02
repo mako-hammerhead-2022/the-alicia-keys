@@ -37,6 +37,13 @@ function playNote(e) {
   
 document.addEventListener("keydown", playNote)
 
+function changeColor(e) {
+  const white = document.getElementsByClassName('white')
+
+  white.addEventListener('click', function onClick(event)) {
+      event.
+  }
+}
 
 
 
@@ -45,4 +52,6 @@ document.addEventListener("keydown", playNote)
 
 
 
+ {
 
+ }
