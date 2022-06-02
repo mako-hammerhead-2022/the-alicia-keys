@@ -20,9 +20,11 @@ body {
   align-items: center;
 }
 
-.keys {
+.pianoKeys {
   display: flex;
 }
+
+
 
 .keyboard-image-div{
   margin-top: 5rem;
@@ -31,6 +33,7 @@ body {
 .keyboard-image {
   height: 10rem
 }
+
 
 .white {
 
