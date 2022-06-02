@@ -17,22 +17,22 @@ document.addEventListener("keydown", function(e){
 
   if (key =='65') { //works
     playNote(e) 
-  // } else if (key == '83') { //works
-  //   playNote(e)
-  // } else if (key == '68') { //works
-  //   playNote(e)
-  // } else if (key == '70') { //works
-  //   playNote(e)
-  // } else if (key == '74') { //works
-  //   playNote(e)
-  // } else if (key == '75') { //works
-  //   playNote(e)
-  // } else if (key == '76') { //works
-  //   playNote(e)
-  // } else if (key == '186') { //works but piano sample website only has C in one octive, maybe we can take this key out? 
-  //   //8 keys vs 7 audio files
-  //   playNote(e)
-  // }
+  } else if (key == '83') { //works
+    playNote(e)
+  } else if (key == '68') { //works
+    playNote(e)
+  } else if (key == '70') { //works
+    playNote(e)
+  } else if (key == '74') { //works
+    playNote(e)
+  } else if (key == '75') { //works
+    playNote(e)
+  } else if (key == '76') { //works
+    playNote(e)
+  } else if (key == '186') { //works but piano sample website only has C in one octive, maybe we can take this key out? 
+    //8 keys vs 7 audio files
+    playNote(e)
+  }
   // // if (key == '65') { // keyboard a / piano C x
   // } else if (key == '83') { // keyboard s / piano D x
     
