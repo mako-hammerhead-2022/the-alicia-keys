@@ -33,6 +33,7 @@ document.addEventListener("keydown", function(e){
     //8 keys vs 7 audio files
     playNote(e)
   }
+  
   // // if (key == '65') { // keyboard a / piano C x
   // } else if (key == '83') { // keyboard s / piano D x
     
