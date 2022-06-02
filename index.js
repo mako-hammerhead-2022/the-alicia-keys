@@ -1,4 +1,4 @@
-const playNote = () => {
+function playNote() {
 let audio = new Audio('sounds/c-major.wav')
 audio.play()
 }
@@ -6,9 +6,6 @@ audio.play()
 
 
 
-// document.getElementById('mole').remove()
-// moleRandomizer()
-// })
 
 {/* <audio id="audio" src="http://www.soundjay.com/button/beep-07.wav" autoplay="false" ></audio>
 <a onclick="playSound();"> Play</a>
