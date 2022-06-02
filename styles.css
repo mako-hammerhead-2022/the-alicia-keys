@@ -27,7 +27,9 @@ body {
 
 
 .keyboard-image-div{
+  display: flex;
   margin-top: 5rem;
+  justify-content: center;
 }
 
 .keyboard-image {
