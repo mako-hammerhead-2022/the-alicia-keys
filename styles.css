@@ -13,12 +13,8 @@ body {
   justify-content: center;
 }
 
-.keys {
+.pianoKeys {
   display: flex;
-}
-
-.keyboard {
-  
 }
 
 .white {
