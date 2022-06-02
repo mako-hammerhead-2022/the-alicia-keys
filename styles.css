@@ -5,20 +5,31 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: orangered;
-  align-items: center;
-  justify-content: center;
+  background-color: lightgray ;
   display: flex;
   align-items: center;
   justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .keys {
   display: flex;
 }
 
-.keyboard {
-  
+.keyboard-image-div{
+  margin-top: 5rem;
+}
+
+.keyboard-image {
+  height: 10rem
 }
 
 .white {
