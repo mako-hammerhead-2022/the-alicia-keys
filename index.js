@@ -1,10 +1,7 @@
-function playNote() {
-let audio = new Audio('sounds/c-major.wav')
-audio.play()
-}
+
 
 // CODE FROM JSC - DRESS-THE-CLOWN
-// onkeydown for (a = 65, s=83, d=68, f=70, j=74, k=75, l=76, ;=)
+// onkeydown for (a = 65, s=83, d=68, f=70, j=74, k=75, l=76, ;=186)
 function checkKey(e) {
 
   console.log(e)
@@ -42,6 +39,11 @@ function checkKey(e) {
   var sound = document.getElementById("audio");
   sound.play();
 } */}
+
+function playNote() {
+  let audio = new Audio('sounds/c-major.wav')
+  audio.play()
+  }
 
 
 document.getElementById('test-button').addEventListener('click', playNote())
