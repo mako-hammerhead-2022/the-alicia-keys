@@ -3,6 +3,13 @@ let audio = new Audio('sounds/c-major.wav')
 audio.play()
 }
 
+// CODE FROM JSC - DRESS-THE-CLOWN
+// onkeydown for (a, s, d, e, f, j, k, l, ;)
+function checkKey(e) {
+
+}
+
+
 
 
 
