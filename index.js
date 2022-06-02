@@ -37,21 +37,29 @@ function playNote(e) {
   
 document.addEventListener("keydown", playNote)
 
-function changeColor(e) {
-  const white = document.getElementsByClassName('white')
+// const btn = document.getElementById('test-button')
 
-  white.addEventListener('click', function onClick(event)) {
-      event.
-  }
+// function changeColor(event) {
+
+//   
+
+//   btn.addEventListener('click', function onClick(event) {
+//       event.target.style.backgroundColor = 'blue'
+//   }
+// )}
+
+//  const white = document.getElementsByClassName('white')
+
+// const white = document.getElementById('d')
+
+const white = document.getElementsById('d')
+
+
+function changeColor(event) {
+  console.log("HEhaerear")
+  event.target.style.backgroundColor = 'red'
 }
 
+document.addEventListener('keydown', changeColor)
 
-
-
-
-
-
-
- {
-
- }
+ 
