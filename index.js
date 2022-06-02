@@ -51,7 +51,15 @@ document.addEventListener("keydown", playNote)
 document.addEventListener("keydown", addColor)
 document.addEventListener("keyup", removeColor)
 
+const testClick = (e) => {
+  console.log('hello' + e)
+}
 
+
+let element = document.getElementById("pianoKeyboard")
+
+element.addEventListener('click', function handleClick(e) {
+  console.log('element clicked' + e)})
 
 
  

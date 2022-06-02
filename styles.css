@@ -24,6 +24,11 @@ body {
   display: flex;
 }
 
+.piano-keys:hover {
+  cursor: pointer;
+}
+
+
 .keyboard-image-div{
   display: flex;
   margin-top: 5rem;
