@@ -101,7 +101,7 @@ function addColor(e) {
 
 function addClickColor(e) {
   let clickedKey = e.target.id
-  document.getElementById(`${clickedKey}`).classList.add('pressed-key')
+  document.getElementById(`${clickedKey}`).classList.add('clicked-key')
 }
 
 function removeColor(e){
@@ -111,7 +111,7 @@ function removeColor(e){
 
 function removeClickColor(e){
   let clickedKey = e.target.id
-  document.getElementById(`${clickedKey}`).classList.remove('pressed-key')
+  document.getElementById(`${clickedKey}`).classList.remove('clicked-key')
 }
   
   
