@@ -33,21 +33,21 @@ function playNote(e) {
   if (key == '76'){ // keyboard L / piano C1 x
     return playAudio('c-5')
   }
-
-  ///sharp key go here
-  // if (key == '???'){ // e key
-  //   return playAudio('c-sharp')
-  // }
-  ///sharp key go here
-  //if (key == '???'){ // r key
-    //   return playAudio('d-sharp')
-    // }
-  ///sharp key go here
-  //if (key == '???'){ // y key
-    //   return playAudio('f-sharp')
-    // }
-  //etc
-
+  if (key == '69' ) { // keyboard E / piano C sharp
+    return playAudio('c-sharp')
+  }
+  if (key == '82') { //keyboard R / piano D Sharp
+    return playAudio('d-sharp')
+  }
+  if (key == '89') {  //keyboard Y / piano F Sharp
+  return playAudio('f-sharp')
+  }  
+  if (key == '85') { //keyboard U / piano G sharp
+    return playAudio('g-sharp')
+  }
+  if (key == '73') { //keyboard I / piano A sharp
+  return playAudio('a-sharp')
+  }
 }
 
 function playClickedNote(e) {
@@ -77,8 +77,22 @@ function playClickedNote(e) {
   if (key == '76'){ // keyboard L / piano C1 x
     return playAudio('c-5')
   }
+  if (key == '69' ) { // keyboard E / piano C sharp
+    return playAudio('c-sharp')
+  }
+  if (key == '82') { //keyboard R / piano D Sharp
+    return playAudio('d-sharp')
+  }
+  if (key == '89') {  //keyboard Y / piano F Sharp
+  return playAudio('f-sharp')
+  }  
+  if (key == '85') { //keyboard U / piano G sharp
+    return playAudio('g-sharp')
+  }
+  if (key == '73') { //keyboard I / piano A sharp
+  return playAudio('a-sharp')
 }
-
+}
 function addColor(e) {
   let clickedKey = e.target.id
   let key = e.keyCode.toString()
