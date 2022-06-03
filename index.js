@@ -33,6 +33,7 @@ function playNote(e) {
   if (key == '76'){ // keyboard L / piano C1 x
     return playAudio('c-5')
   }
+  
 }
 
 function playClickedNote(e) {
