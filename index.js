@@ -33,7 +33,21 @@ function playNote(e) {
   if (key == '76'){ // keyboard L / piano C1 x
     return playAudio('c-5')
   }
-  
+
+  ///sharp key go here
+  // if (key == '???'){ // e key
+  //   return playAudio('c-sharp')
+  // }
+  ///sharp key go here
+  //if (key == '???'){ // r key
+    //   return playAudio('d-sharp')
+    // }
+  ///sharp key go here
+  //if (key == '???'){ // y key
+    //   return playAudio('f-sharp')
+    // }
+  //etc
+
 }
 
 function playClickedNote(e) {
